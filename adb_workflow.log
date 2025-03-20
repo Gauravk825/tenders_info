@@ -1,0 +1,665 @@
+2025-03-19 15:59:19,884 - ADB Workflow - INFO - Starting ADB monitoring workflow
+2025-03-19 15:59:19,885 - ADB Workflow - ERROR - Error loading config: Expecting value: line 1 column 1 (char 0)
+2025-03-19 15:59:19,885 - ADB Workflow - INFO - Created default config file: config.json
+2025-03-19 15:59:19,892 - ADB Workflow - INFO - Scheduled job to run daily at 09:00
+2025-03-19 15:59:19,892 - ADB Workflow - INFO - Running initial job
+2025-03-19 15:59:20,688 - selenium.webdriver.common.selenium_manager - WARNING - The chromedriver version (133.0.6943.126) detected in PATH at C:\Windows\chromedriver.exe might not be compatible with the detected chrome version (134.0.6998.89); currently, chromedriver 134.0.6998.88 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
+2025-03-19 15:59:21,881 - ADB Workflow - INFO - Running tender search for india_water_tenders
+2025-03-19 15:59:21,881 - ADBScraper - INFO - Searching tenders with filters: {'country': 'India', 'status': 'Active', 'sector': 'Water and other urban infrastructure and services'}
+2025-03-19 15:59:22,448 - ADBScraper - INFO - Navigated to tenders page
+2025-03-19 15:59:32,488 - ADBScraper - ERROR - Error searching tenders: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF71E516EE5+28773]
+	(No symbol) [0x00007FF71E4825D0]
+	(No symbol) [0x00007FF71E318FAA]
+	(No symbol) [0x00007FF71E36F286]
+	(No symbol) [0x00007FF71E36F4BC]
+	(No symbol) [0x00007FF71E3C2A27]
+	(No symbol) [0x00007FF71E39728F]
+	(No symbol) [0x00007FF71E3BF6F3]
+	(No symbol) [0x00007FF71E397023]
+	(No symbol) [0x00007FF71E35FF5E]
+	(No symbol) [0x00007FF71E3611E3]
+	GetHandleVerifier [0x00007FF71E86422D+3490733]
+	GetHandleVerifier [0x00007FF71E87BA13+3586963]
+	GetHandleVerifier [0x00007FF71E87144D+3544525]
+	GetHandleVerifier [0x00007FF71E5DC9AA+838442]
+	(No symbol) [0x00007FF71E48D01F]
+	(No symbol) [0x00007FF71E4895E4]
+	(No symbol) [0x00007FF71E489786]
+	(No symbol) [0x00007FF71E478CB9]
+	BaseThreadInitThunk [0x00007FFD8ECF259D+29]
+	RtlUserThreadStart [0x00007FFD9036AF38+40]
+
+2025-03-19 15:59:32,492 - ADB Workflow - INFO - Running project search for india_transport_projects
+2025-03-19 15:59:32,492 - ADBScraper - INFO - Searching projects with filters: {'country': 'India', 'status': 'Proposed', 'sector': 'Transport'}
+2025-03-19 15:59:32,761 - ADBScraper - INFO - Navigated to projects page
+2025-03-19 15:59:43,210 - ADBScraper - ERROR - Error searching projects: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF71E516EE5+28773]
+	(No symbol) [0x00007FF71E4825D0]
+	(No symbol) [0x00007FF71E318FAA]
+	(No symbol) [0x00007FF71E36F286]
+	(No symbol) [0x00007FF71E36F4BC]
+	(No symbol) [0x00007FF71E3C2A27]
+	(No symbol) [0x00007FF71E39728F]
+	(No symbol) [0x00007FF71E3BF6F3]
+	(No symbol) [0x00007FF71E397023]
+	(No symbol) [0x00007FF71E35FF5E]
+	(No symbol) [0x00007FF71E3611E3]
+	GetHandleVerifier [0x00007FF71E86422D+3490733]
+	GetHandleVerifier [0x00007FF71E87BA13+3586963]
+	GetHandleVerifier [0x00007FF71E87144D+3544525]
+	GetHandleVerifier [0x00007FF71E5DC9AA+838442]
+	(No symbol) [0x00007FF71E48D01F]
+	(No symbol) [0x00007FF71E4895E4]
+	(No symbol) [0x00007FF71E489786]
+	(No symbol) [0x00007FF71E478CB9]
+	BaseThreadInitThunk [0x00007FFD8ECF259D+29]
+	RtlUserThreadStart [0x00007FFD9036AF38+40]
+
+2025-03-19 15:59:43,214 - ADB Workflow - INFO - No new items found
+2025-03-19 15:59:45,403 - ADBScraper - INFO - Browser closed
+2025-03-19 15:59:49,524 - ADB Workflow - INFO - Entering schedule loop
+2025-03-19 16:18:11,084 - ADB Workflow - INFO - Starting ADB monitoring workflow
+2025-03-19 16:18:11,093 - ADB Workflow - INFO - Scheduled job to run daily at 09:00
+2025-03-19 16:18:11,093 - ADB Workflow - INFO - Running initial job
+2025-03-19 16:18:13,389 - ADB Workflow - INFO - Running tender search for india_water_tenders
+2025-03-19 16:18:13,390 - ADBScraper - INFO - Searching tenders with filters: {'country': 'India', 'status': 'Active', 'sector': 'Water and other urban infrastructure and services'}
+2025-03-19 16:18:14,358 - ADBScraper - INFO - Navigated to tenders page
+2025-03-19 16:18:24,763 - ADBScraper - ERROR - Error searching tenders: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF680F4FE45+26629]
+	(No symbol) [0x00007FF680EB6010]
+	(No symbol) [0x00007FF680D4931A]
+	(No symbol) [0x00007FF680D9F8E7]
+	(No symbol) [0x00007FF680D9FB1C]
+	(No symbol) [0x00007FF680DF34A7]
+	(No symbol) [0x00007FF680DC7AEF]
+	(No symbol) [0x00007FF680DF0169]
+	(No symbol) [0x00007FF680DC7883]
+	(No symbol) [0x00007FF680D90550]
+	(No symbol) [0x00007FF680D91803]
+	GetHandleVerifier [0x00007FF6812A72BD+3529853]
+	GetHandleVerifier [0x00007FF6812BDA22+3621858]
+	GetHandleVerifier [0x00007FF6812B24D3+3575443]
+	GetHandleVerifier [0x00007FF68101B77A+860474]
+	(No symbol) [0x00007FF680EC088F]
+	(No symbol) [0x00007FF680EBCBC4]
+	(No symbol) [0x00007FF680EBCD66]
+	(No symbol) [0x00007FF680EAC2C9]
+	BaseThreadInitThunk [0x00007FFD8ECF259D+29]
+	RtlUserThreadStart [0x00007FFD9036AF38+40]
+
+2025-03-19 16:18:24,768 - ADB Workflow - INFO - Running project search for india_transport_projects
+2025-03-19 16:18:24,768 - ADBScraper - INFO - Searching projects with filters: {'country': 'India', 'status': 'Proposed', 'sector': None}
+2025-03-19 16:18:24,978 - ADBScraper - INFO - Navigated to projects page
+2025-03-19 16:18:35,448 - ADBScraper - ERROR - Error searching projects: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF680F4FE45+26629]
+	(No symbol) [0x00007FF680EB6010]
+	(No symbol) [0x00007FF680D4931A]
+	(No symbol) [0x00007FF680D9F8E7]
+	(No symbol) [0x00007FF680D9FB1C]
+	(No symbol) [0x00007FF680DF34A7]
+	(No symbol) [0x00007FF680DC7AEF]
+	(No symbol) [0x00007FF680DF0169]
+	(No symbol) [0x00007FF680DC7883]
+	(No symbol) [0x00007FF680D90550]
+	(No symbol) [0x00007FF680D91803]
+	GetHandleVerifier [0x00007FF6812A72BD+3529853]
+	GetHandleVerifier [0x00007FF6812BDA22+3621858]
+	GetHandleVerifier [0x00007FF6812B24D3+3575443]
+	GetHandleVerifier [0x00007FF68101B77A+860474]
+	(No symbol) [0x00007FF680EC088F]
+	(No symbol) [0x00007FF680EBCBC4]
+	(No symbol) [0x00007FF680EBCD66]
+	(No symbol) [0x00007FF680EAC2C9]
+	BaseThreadInitThunk [0x00007FFD8ECF259D+29]
+	RtlUserThreadStart [0x00007FFD9036AF38+40]
+
+2025-03-19 16:18:35,459 - ADB Workflow - INFO - No new items found
+2025-03-19 16:18:37,763 - ADBScraper - INFO - Browser closed
+2025-03-19 16:18:41,845 - ADB Workflow - INFO - Entering schedule loop
+2025-03-19 16:21:26,842 - ADB Workflow - INFO - Starting ADB monitoring workflow
+2025-03-19 16:21:26,844 - ADB Workflow - INFO - Scheduled job to run daily at 09:00
+2025-03-19 16:21:26,845 - ADB Workflow - INFO - Running initial job
+2025-03-19 16:21:28,879 - ADB Workflow - INFO - Running tender search for india_water_tenders
+2025-03-19 16:21:28,880 - ADBScraper - INFO - Searching tenders with filters: {'country': 'India', 'status': 'Active', 'sector': 'Water and other urban infrastructure and services'}
+2025-03-19 16:21:29,875 - ADBScraper - INFO - Navigated to tenders page
+2025-03-19 16:21:39,973 - ADBScraper - ERROR - Error searching tenders: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF680F4FE45+26629]
+	(No symbol) [0x00007FF680EB6010]
+	(No symbol) [0x00007FF680D4931A]
+	(No symbol) [0x00007FF680D9F8E7]
+	(No symbol) [0x00007FF680D9FB1C]
+	(No symbol) [0x00007FF680DF34A7]
+	(No symbol) [0x00007FF680DC7AEF]
+	(No symbol) [0x00007FF680DF0169]
+	(No symbol) [0x00007FF680DC7883]
+	(No symbol) [0x00007FF680D90550]
+	(No symbol) [0x00007FF680D91803]
+	GetHandleVerifier [0x00007FF6812A72BD+3529853]
+	GetHandleVerifier [0x00007FF6812BDA22+3621858]
+	GetHandleVerifier [0x00007FF6812B24D3+3575443]
+	GetHandleVerifier [0x00007FF68101B77A+860474]
+	(No symbol) [0x00007FF680EC088F]
+	(No symbol) [0x00007FF680EBCBC4]
+	(No symbol) [0x00007FF680EBCD66]
+	(No symbol) [0x00007FF680EAC2C9]
+	BaseThreadInitThunk [0x00007FFD8ECF259D+29]
+	RtlUserThreadStart [0x00007FFD9036AF38+40]
+
+2025-03-19 16:21:39,987 - ADB Workflow - INFO - Running project search for india_transport_projects
+2025-03-19 16:21:39,988 - ADBScraper - INFO - Searching projects with filters: {'country': 'India', 'status': 'Proposed', 'sector': None}
+2025-03-19 16:21:40,141 - ADBScraper - INFO - Navigated to projects page
+2025-03-19 16:21:50,298 - ADBScraper - ERROR - Error searching projects: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF680F4FE45+26629]
+	(No symbol) [0x00007FF680EB6010]
+	(No symbol) [0x00007FF680D4931A]
+	(No symbol) [0x00007FF680D9F8E7]
+	(No symbol) [0x00007FF680D9FB1C]
+	(No symbol) [0x00007FF680DF34A7]
+	(No symbol) [0x00007FF680DC7AEF]
+	(No symbol) [0x00007FF680DF0169]
+	(No symbol) [0x00007FF680DC7883]
+	(No symbol) [0x00007FF680D90550]
+	(No symbol) [0x00007FF680D91803]
+	GetHandleVerifier [0x00007FF6812A72BD+3529853]
+	GetHandleVerifier [0x00007FF6812BDA22+3621858]
+	GetHandleVerifier [0x00007FF6812B24D3+3575443]
+	GetHandleVerifier [0x00007FF68101B77A+860474]
+	(No symbol) [0x00007FF680EC088F]
+	(No symbol) [0x00007FF680EBCBC4]
+	(No symbol) [0x00007FF680EBCD66]
+	(No symbol) [0x00007FF680EAC2C9]
+	BaseThreadInitThunk [0x00007FFD8ECF259D+29]
+	RtlUserThreadStart [0x00007FFD9036AF38+40]
+
+2025-03-19 16:21:50,317 - ADB Workflow - INFO - No new items found
+2025-03-19 16:21:52,561 - ADBScraper - INFO - Browser closed
+2025-03-19 16:21:56,647 - ADB Workflow - INFO - Entering schedule loop
+2025-03-19 16:28:19,637 - ADB Workflow - INFO - Starting ADB monitoring workflow
+2025-03-19 16:28:19,639 - ADB Workflow - INFO - Scheduled job to run daily at 09:00
+2025-03-19 16:28:19,639 - ADB Workflow - INFO - Running initial job
+2025-03-19 16:28:21,603 - ADB Workflow - INFO - Running tender search for india_water_tenders
+2025-03-19 16:28:21,604 - ADBScraper - INFO - Searching tenders with filters: {'country': 'India', 'status': 'Active', 'sector': 'Water and other urban infrastructure and services'}
+2025-03-19 16:28:22,328 - ADBScraper - INFO - Navigated to tenders page
+2025-03-19 16:28:32,447 - ADBScraper - ERROR - Error searching tenders: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A01CFE45+26629]
+	(No symbol) [0x00007FF7A0136010]
+	(No symbol) [0x00007FF79FFC931A]
+	(No symbol) [0x00007FF7A001F8E7]
+	(No symbol) [0x00007FF7A001FB1C]
+	(No symbol) [0x00007FF7A00734A7]
+	(No symbol) [0x00007FF7A0047AEF]
+	(No symbol) [0x00007FF7A0070169]
+	(No symbol) [0x00007FF7A0047883]
+	(No symbol) [0x00007FF7A0010550]
+	(No symbol) [0x00007FF7A0011803]
+	GetHandleVerifier [0x00007FF7A05272BD+3529853]
+	GetHandleVerifier [0x00007FF7A053DA22+3621858]
+	GetHandleVerifier [0x00007FF7A05324D3+3575443]
+	GetHandleVerifier [0x00007FF7A029B77A+860474]
+	(No symbol) [0x00007FF7A014088F]
+	(No symbol) [0x00007FF7A013CBC4]
+	(No symbol) [0x00007FF7A013CD66]
+	(No symbol) [0x00007FF7A012C2C9]
+	BaseThreadInitThunk [0x00007FFD8ECF259D+29]
+	RtlUserThreadStart [0x00007FFD9036AF38+40]
+
+2025-03-19 16:28:32,466 - ADB Workflow - INFO - Running project search for india_transport_projects
+2025-03-19 16:28:32,468 - ADBScraper - INFO - Searching projects with filters: {'country': 'India', 'status': 'Proposed', 'sector': None}
+2025-03-19 16:28:32,736 - ADBScraper - INFO - Navigated to projects page
+2025-03-19 16:28:42,813 - ADBScraper - ERROR - Error searching projects: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A01CFE45+26629]
+	(No symbol) [0x00007FF7A0136010]
+	(No symbol) [0x00007FF79FFC931A]
+	(No symbol) [0x00007FF7A001F8E7]
+	(No symbol) [0x00007FF7A001FB1C]
+	(No symbol) [0x00007FF7A00734A7]
+	(No symbol) [0x00007FF7A0047AEF]
+	(No symbol) [0x00007FF7A0070169]
+	(No symbol) [0x00007FF7A0047883]
+	(No symbol) [0x00007FF7A0010550]
+	(No symbol) [0x00007FF7A0011803]
+	GetHandleVerifier [0x00007FF7A05272BD+3529853]
+	GetHandleVerifier [0x00007FF7A053DA22+3621858]
+	GetHandleVerifier [0x00007FF7A05324D3+3575443]
+	GetHandleVerifier [0x00007FF7A029B77A+860474]
+	(No symbol) [0x00007FF7A014088F]
+	(No symbol) [0x00007FF7A013CBC4]
+	(No symbol) [0x00007FF7A013CD66]
+	(No symbol) [0x00007FF7A012C2C9]
+	BaseThreadInitThunk [0x00007FFD8ECF259D+29]
+	RtlUserThreadStart [0x00007FFD9036AF38+40]
+
+2025-03-19 16:28:42,826 - ADB Workflow - INFO - No new items found
+2025-03-19 16:28:45,012 - ADBScraper - INFO - Browser closed
+2025-03-19 16:28:49,089 - ADB Workflow - INFO - Entering schedule loop
+2025-03-19 16:41:23,707 - ADB Workflow - INFO - Starting ADB monitoring workflow
+2025-03-19 16:41:23,708 - ADB Workflow - INFO - Scheduled job to run daily at 09:00
+2025-03-19 16:41:23,709 - ADB Workflow - INFO - Running initial job
+2025-03-19 16:41:25,820 - ADB Workflow - INFO - Running tender search for india_water_tenders
+2025-03-19 16:41:25,820 - ADBScraper - INFO - Searching tenders with filters: {'country': 'India', 'status': 'Active', 'sector': 'Water and other urban infrastructure and services'}
+2025-03-19 16:41:26,632 - ADBScraper - INFO - Navigated to tenders page
+2025-03-19 16:41:36,891 - ADBScraper - ERROR - Error searching tenders: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF77331FE45+26629]
+	(No symbol) [0x00007FF773286010]
+	(No symbol) [0x00007FF77311931A]
+	(No symbol) [0x00007FF77316F8E7]
+	(No symbol) [0x00007FF77316FB1C]
+	(No symbol) [0x00007FF7731C34A7]
+	(No symbol) [0x00007FF773197AEF]
+	(No symbol) [0x00007FF7731C0169]
+	(No symbol) [0x00007FF773197883]
+	(No symbol) [0x00007FF773160550]
+	(No symbol) [0x00007FF773161803]
+	GetHandleVerifier [0x00007FF7736772BD+3529853]
+	GetHandleVerifier [0x00007FF77368DA22+3621858]
+	GetHandleVerifier [0x00007FF7736824D3+3575443]
+	GetHandleVerifier [0x00007FF7733EB77A+860474]
+	(No symbol) [0x00007FF77329088F]
+	(No symbol) [0x00007FF77328CBC4]
+	(No symbol) [0x00007FF77328CD66]
+	(No symbol) [0x00007FF77327C2C9]
+	BaseThreadInitThunk [0x00007FFD8ECF259D+29]
+	RtlUserThreadStart [0x00007FFD9036AF38+40]
+
+2025-03-19 16:41:36,896 - ADB Workflow - INFO - Running project search for india_transport_projects
+2025-03-19 16:41:36,896 - ADBScraper - INFO - Searching projects with filters: {'country': 'India', 'status': 'Proposed', 'sector': None}
+2025-03-19 16:41:37,195 - ADBScraper - INFO - Navigated to projects page
+2025-03-19 16:41:47,261 - ADBScraper - ERROR - Error searching projects: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF77331FE45+26629]
+	(No symbol) [0x00007FF773286010]
+	(No symbol) [0x00007FF77311931A]
+	(No symbol) [0x00007FF77316F8E7]
+	(No symbol) [0x00007FF77316FB1C]
+	(No symbol) [0x00007FF7731C34A7]
+	(No symbol) [0x00007FF773197AEF]
+	(No symbol) [0x00007FF7731C0169]
+	(No symbol) [0x00007FF773197883]
+	(No symbol) [0x00007FF773160550]
+	(No symbol) [0x00007FF773161803]
+	GetHandleVerifier [0x00007FF7736772BD+3529853]
+	GetHandleVerifier [0x00007FF77368DA22+3621858]
+	GetHandleVerifier [0x00007FF7736824D3+3575443]
+	GetHandleVerifier [0x00007FF7733EB77A+860474]
+	(No symbol) [0x00007FF77329088F]
+	(No symbol) [0x00007FF77328CBC4]
+	(No symbol) [0x00007FF77328CD66]
+	(No symbol) [0x00007FF77327C2C9]
+	BaseThreadInitThunk [0x00007FFD8ECF259D+29]
+	RtlUserThreadStart [0x00007FFD9036AF38+40]
+
+2025-03-19 16:41:47,279 - ADB Workflow - INFO - No new items found
+2025-03-19 16:41:49,569 - ADBScraper - INFO - Browser closed
+2025-03-19 16:41:53,649 - ADB Workflow - INFO - Entering schedule loop
+2025-03-19 16:45:10,866 - ADB Workflow - INFO - Starting ADB monitoring workflow
+2025-03-19 16:45:10,875 - ADB Workflow - INFO - Scheduled job to run daily at 09:00
+2025-03-19 16:45:10,876 - ADB Workflow - INFO - Running initial job
+2025-03-19 16:45:13,032 - ADB Workflow - INFO - Running tender search for india_water_tenders
+2025-03-19 16:45:13,034 - ADBScraper - INFO - Searching tenders with filters: {'country': 'India', 'status': 'Active', 'sector': 'Water and other urban infrastructure and services'}
+2025-03-19 16:45:13,924 - ADBScraper - INFO - Navigated to tenders page
+2025-03-19 16:45:24,101 - ADBScraper - ERROR - Error searching tenders: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF77331FE45+26629]
+	(No symbol) [0x00007FF773286010]
+	(No symbol) [0x00007FF77311931A]
+	(No symbol) [0x00007FF77316F8E7]
+	(No symbol) [0x00007FF77316FB1C]
+	(No symbol) [0x00007FF7731C34A7]
+	(No symbol) [0x00007FF773197AEF]
+	(No symbol) [0x00007FF7731C0169]
+	(No symbol) [0x00007FF773197883]
+	(No symbol) [0x00007FF773160550]
+	(No symbol) [0x00007FF773161803]
+	GetHandleVerifier [0x00007FF7736772BD+3529853]
+	GetHandleVerifier [0x00007FF77368DA22+3621858]
+	GetHandleVerifier [0x00007FF7736824D3+3575443]
+	GetHandleVerifier [0x00007FF7733EB77A+860474]
+	(No symbol) [0x00007FF77329088F]
+	(No symbol) [0x00007FF77328CBC4]
+	(No symbol) [0x00007FF77328CD66]
+	(No symbol) [0x00007FF77327C2C9]
+	BaseThreadInitThunk [0x00007FFD8ECF259D+29]
+	RtlUserThreadStart [0x00007FFD9036AF38+40]
+
+2025-03-19 16:45:24,120 - ADB Workflow - INFO - Running project search for india_transport_projects
+2025-03-19 16:45:24,122 - ADBScraper - INFO - Searching projects with filters: {'country': 'India', 'status': 'Proposed', 'sector': 'Transport'}
+2025-03-19 16:45:24,282 - ADBScraper - INFO - Navigated to projects page
+2025-03-19 16:45:34,824 - ADBScraper - ERROR - Error searching projects: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF77331FE45+26629]
+	(No symbol) [0x00007FF773286010]
+	(No symbol) [0x00007FF77311931A]
+	(No symbol) [0x00007FF77316F8E7]
+	(No symbol) [0x00007FF77316FB1C]
+	(No symbol) [0x00007FF7731C34A7]
+	(No symbol) [0x00007FF773197AEF]
+	(No symbol) [0x00007FF7731C0169]
+	(No symbol) [0x00007FF773197883]
+	(No symbol) [0x00007FF773160550]
+	(No symbol) [0x00007FF773161803]
+	GetHandleVerifier [0x00007FF7736772BD+3529853]
+	GetHandleVerifier [0x00007FF77368DA22+3621858]
+	GetHandleVerifier [0x00007FF7736824D3+3575443]
+	GetHandleVerifier [0x00007FF7733EB77A+860474]
+	(No symbol) [0x00007FF77329088F]
+	(No symbol) [0x00007FF77328CBC4]
+	(No symbol) [0x00007FF77328CD66]
+	(No symbol) [0x00007FF77327C2C9]
+	BaseThreadInitThunk [0x00007FFD8ECF259D+29]
+	RtlUserThreadStart [0x00007FFD9036AF38+40]
+
+2025-03-19 16:45:34,842 - ADB Workflow - INFO - No new items found
+2025-03-19 16:45:37,023 - ADBScraper - INFO - Browser closed
+2025-03-19 16:45:41,107 - ADB Workflow - INFO - Entering schedule loop
+2025-03-19 16:50:32,724 - ADB Workflow - INFO - Starting ADB monitoring workflow
+2025-03-19 16:50:32,725 - ADB Workflow - INFO - Scheduled job to run daily at 09:00
+2025-03-19 16:50:32,726 - ADB Workflow - INFO - Running initial job
+2025-03-19 16:50:35,067 - ADB Workflow - INFO - Running tender search for india_water_tenders
+2025-03-19 16:50:35,069 - ADBScraper - INFO - Searching tenders with filters: {'country': 'India', 'status': 'Active', 'sector': 'Water and other urban infrastructure and services'}
+2025-03-19 16:50:35,894 - ADBScraper - INFO - Navigated to tenders page
+2025-03-19 16:50:46,216 - ADBScraper - ERROR - Error searching tenders: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DDBDFE45+26629]
+	(No symbol) [0x00007FF6DDB46010]
+	(No symbol) [0x00007FF6DD9D931A]
+	(No symbol) [0x00007FF6DDA2F8E7]
+	(No symbol) [0x00007FF6DDA2FB1C]
+	(No symbol) [0x00007FF6DDA834A7]
+	(No symbol) [0x00007FF6DDA57AEF]
+	(No symbol) [0x00007FF6DDA80169]
+	(No symbol) [0x00007FF6DDA57883]
+	(No symbol) [0x00007FF6DDA20550]
+	(No symbol) [0x00007FF6DDA21803]
+	GetHandleVerifier [0x00007FF6DDF372BD+3529853]
+	GetHandleVerifier [0x00007FF6DDF4DA22+3621858]
+	GetHandleVerifier [0x00007FF6DDF424D3+3575443]
+	GetHandleVerifier [0x00007FF6DDCAB77A+860474]
+	(No symbol) [0x00007FF6DDB5088F]
+	(No symbol) [0x00007FF6DDB4CBC4]
+	(No symbol) [0x00007FF6DDB4CD66]
+	(No symbol) [0x00007FF6DDB3C2C9]
+	BaseThreadInitThunk [0x00007FFD8ECF259D+29]
+	RtlUserThreadStart [0x00007FFD9036AF38+40]
+
+2025-03-19 16:50:46,237 - ADB Workflow - INFO - Running project search for india_transport_projects
+2025-03-19 16:50:46,238 - ADBScraper - INFO - Searching projects with filters: {'country': 'India', 'status': 'Proposed', 'sector': 'Transport'}
+2025-03-19 16:50:46,414 - ADBScraper - INFO - Navigated to projects page
+2025-03-19 16:50:56,541 - ADBScraper - ERROR - Error searching projects: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DDBDFE45+26629]
+	(No symbol) [0x00007FF6DDB46010]
+	(No symbol) [0x00007FF6DD9D931A]
+	(No symbol) [0x00007FF6DDA2F8E7]
+	(No symbol) [0x00007FF6DDA2FB1C]
+	(No symbol) [0x00007FF6DDA834A7]
+	(No symbol) [0x00007FF6DDA57AEF]
+	(No symbol) [0x00007FF6DDA80169]
+	(No symbol) [0x00007FF6DDA57883]
+	(No symbol) [0x00007FF6DDA20550]
+	(No symbol) [0x00007FF6DDA21803]
+	GetHandleVerifier [0x00007FF6DDF372BD+3529853]
+	GetHandleVerifier [0x00007FF6DDF4DA22+3621858]
+	GetHandleVerifier [0x00007FF6DDF424D3+3575443]
+	GetHandleVerifier [0x00007FF6DDCAB77A+860474]
+	(No symbol) [0x00007FF6DDB5088F]
+	(No symbol) [0x00007FF6DDB4CBC4]
+	(No symbol) [0x00007FF6DDB4CD66]
+	(No symbol) [0x00007FF6DDB3C2C9]
+	BaseThreadInitThunk [0x00007FFD8ECF259D+29]
+	RtlUserThreadStart [0x00007FFD9036AF38+40]
+
+2025-03-19 16:50:56,548 - ADB Workflow - INFO - No new items found
+2025-03-19 16:50:58,796 - ADBScraper - INFO - Browser closed
+2025-03-19 16:51:02,880 - ADB Workflow - INFO - Entering schedule loop
+2025-03-19 16:56:00,309 - ADB Workflow - INFO - Starting ADB monitoring workflow
+2025-03-19 16:56:00,310 - ADB Workflow - INFO - Scheduled job to run daily at 09:00
+2025-03-19 16:56:00,310 - ADB Workflow - INFO - Running initial job
+2025-03-19 16:56:02,545 - ADB Workflow - INFO - Running tender search for india_water_tenders
+2025-03-19 16:56:02,546 - ADBScraper - INFO - Searching tenders with filters: {'country': 'India', 'status': 'Active', 'sector': 'Water and other urban infrastructure and services'}
+2025-03-19 16:56:03,312 - ADBScraper - INFO - Navigated to tenders page
+2025-03-19 16:56:13,573 - ADBScraper - ERROR - Error searching tenders: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DDBDFE45+26629]
+	(No symbol) [0x00007FF6DDB46010]
+	(No symbol) [0x00007FF6DD9D931A]
+	(No symbol) [0x00007FF6DDA2F8E7]
+	(No symbol) [0x00007FF6DDA2FB1C]
+	(No symbol) [0x00007FF6DDA834A7]
+	(No symbol) [0x00007FF6DDA57AEF]
+	(No symbol) [0x00007FF6DDA80169]
+	(No symbol) [0x00007FF6DDA57883]
+	(No symbol) [0x00007FF6DDA20550]
+	(No symbol) [0x00007FF6DDA21803]
+	GetHandleVerifier [0x00007FF6DDF372BD+3529853]
+	GetHandleVerifier [0x00007FF6DDF4DA22+3621858]
+	GetHandleVerifier [0x00007FF6DDF424D3+3575443]
+	GetHandleVerifier [0x00007FF6DDCAB77A+860474]
+	(No symbol) [0x00007FF6DDB5088F]
+	(No symbol) [0x00007FF6DDB4CBC4]
+	(No symbol) [0x00007FF6DDB4CD66]
+	(No symbol) [0x00007FF6DDB3C2C9]
+	BaseThreadInitThunk [0x00007FFD8ECF259D+29]
+	RtlUserThreadStart [0x00007FFD9036AF38+40]
+
+2025-03-19 16:56:13,578 - ADB Workflow - INFO - Running project search for india_transport_projects
+2025-03-19 16:56:13,578 - ADBScraper - INFO - Searching projects with filters: {'country': 'India', 'status': 'Proposed', 'sector': 'Transport'}
+2025-03-19 16:56:13,747 - ADBScraper - INFO - Navigated to projects page
+2025-03-19 16:56:24,155 - ADBScraper - ERROR - Error searching projects: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DDBDFE45+26629]
+	(No symbol) [0x00007FF6DDB46010]
+	(No symbol) [0x00007FF6DD9D931A]
+	(No symbol) [0x00007FF6DDA2F8E7]
+	(No symbol) [0x00007FF6DDA2FB1C]
+	(No symbol) [0x00007FF6DDA834A7]
+	(No symbol) [0x00007FF6DDA57AEF]
+	(No symbol) [0x00007FF6DDA80169]
+	(No symbol) [0x00007FF6DDA57883]
+	(No symbol) [0x00007FF6DDA20550]
+	(No symbol) [0x00007FF6DDA21803]
+	GetHandleVerifier [0x00007FF6DDF372BD+3529853]
+	GetHandleVerifier [0x00007FF6DDF4DA22+3621858]
+	GetHandleVerifier [0x00007FF6DDF424D3+3575443]
+	GetHandleVerifier [0x00007FF6DDCAB77A+860474]
+	(No symbol) [0x00007FF6DDB5088F]
+	(No symbol) [0x00007FF6DDB4CBC4]
+	(No symbol) [0x00007FF6DDB4CD66]
+	(No symbol) [0x00007FF6DDB3C2C9]
+	BaseThreadInitThunk [0x00007FFD8ECF259D+29]
+	RtlUserThreadStart [0x00007FFD9036AF38+40]
+
+2025-03-19 16:56:24,162 - ADB Workflow - INFO - No new items found
+2025-03-19 16:56:26,441 - ADBScraper - INFO - Browser closed
+2025-03-19 16:56:30,552 - ADB Workflow - INFO - Entering schedule loop
+2025-03-19 17:03:31,033 - ADB Workflow - INFO - Starting ADB monitoring workflow
+2025-03-19 17:03:31,033 - ADB Workflow - INFO - Scheduled job to run daily at 09:00
+2025-03-19 17:03:31,034 - ADB Workflow - INFO - Running initial job
+2025-03-19 17:03:35,058 - ADB Workflow - INFO - Running tender search for india_water_tenders
+2025-03-19 17:03:35,059 - ADBScraper - INFO - Searching tenders with filters: {'country': 'India', 'status': 'Active', 'sector': 'Water and other urban infrastructure and services'}
+2025-03-19 17:03:36,463 - ADBScraper - INFO - Navigated to tenders page
+2025-03-19 17:03:46,474 - ADBScraper - ERROR - Error searching tenders: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DDBDFE45+26629]
+	(No symbol) [0x00007FF6DDB46010]
+	(No symbol) [0x00007FF6DD9D931A]
+	(No symbol) [0x00007FF6DDA2F8E7]
+	(No symbol) [0x00007FF6DDA2FB1C]
+	(No symbol) [0x00007FF6DDA834A7]
+	(No symbol) [0x00007FF6DDA57AEF]
+	(No symbol) [0x00007FF6DDA80169]
+	(No symbol) [0x00007FF6DDA57883]
+	(No symbol) [0x00007FF6DDA20550]
+	(No symbol) [0x00007FF6DDA21803]
+	GetHandleVerifier [0x00007FF6DDF372BD+3529853]
+	GetHandleVerifier [0x00007FF6DDF4DA22+3621858]
+	GetHandleVerifier [0x00007FF6DDF424D3+3575443]
+	GetHandleVerifier [0x00007FF6DDCAB77A+860474]
+	(No symbol) [0x00007FF6DDB5088F]
+	(No symbol) [0x00007FF6DDB4CBC4]
+	(No symbol) [0x00007FF6DDB4CD66]
+	(No symbol) [0x00007FF6DDB3C2C9]
+	BaseThreadInitThunk [0x00007FFD8ECF259D+29]
+	RtlUserThreadStart [0x00007FFD9036AF38+40]
+
+2025-03-19 17:03:46,479 - ADB Workflow - INFO - Running project search for india_transport_projects
+2025-03-19 17:03:46,480 - ADBScraper - INFO - Searching projects with filters: {'country': 'India', 'status': 'Proposed', 'sector': 'Transport'}
+2025-03-19 17:03:46,725 - ADBScraper - INFO - Navigated to projects page
+2025-03-19 17:03:56,760 - ADBScraper - ERROR - Error searching projects: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DDBDFE45+26629]
+	(No symbol) [0x00007FF6DDB46010]
+	(No symbol) [0x00007FF6DD9D931A]
+	(No symbol) [0x00007FF6DDA2F8E7]
+	(No symbol) [0x00007FF6DDA2FB1C]
+	(No symbol) [0x00007FF6DDA834A7]
+	(No symbol) [0x00007FF6DDA57AEF]
+	(No symbol) [0x00007FF6DDA80169]
+	(No symbol) [0x00007FF6DDA57883]
+	(No symbol) [0x00007FF6DDA20550]
+	(No symbol) [0x00007FF6DDA21803]
+	GetHandleVerifier [0x00007FF6DDF372BD+3529853]
+	GetHandleVerifier [0x00007FF6DDF4DA22+3621858]
+	GetHandleVerifier [0x00007FF6DDF424D3+3575443]
+	GetHandleVerifier [0x00007FF6DDCAB77A+860474]
+	(No symbol) [0x00007FF6DDB5088F]
+	(No symbol) [0x00007FF6DDB4CBC4]
+	(No symbol) [0x00007FF6DDB4CD66]
+	(No symbol) [0x00007FF6DDB3C2C9]
+	BaseThreadInitThunk [0x00007FFD8ECF259D+29]
+	RtlUserThreadStart [0x00007FFD9036AF38+40]
+
+2025-03-19 17:03:56,779 - ADB Workflow - INFO - No new items found
+2025-03-19 17:03:59,094 - ADBScraper - INFO - Browser closed
+2025-03-19 17:04:03,175 - ADB Workflow - INFO - Entering schedule loop
+2025-03-19 17:05:41,785 - ADB Workflow - INFO - Starting ADB monitoring workflow
+2025-03-19 17:05:41,788 - ADB Workflow - INFO - Scheduled job to run daily at 09:00
+2025-03-19 17:05:41,788 - ADB Workflow - INFO - Running initial job
+2025-03-19 17:05:43,918 - ADB Workflow - INFO - Running tender search for india_water_tenders
+2025-03-19 17:05:43,918 - ADBScraper - INFO - Searching tenders with filters: {'country': 'India', 'status': 'Active', 'sector': 'Water and other urban infrastructure and services'}
+2025-03-19 17:05:44,759 - ADBScraper - INFO - Navigated to tenders page
+2025-03-19 17:05:54,900 - ADBScraper - ERROR - Error searching tenders: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DDBDFE45+26629]
+	(No symbol) [0x00007FF6DDB46010]
+	(No symbol) [0x00007FF6DD9D931A]
+	(No symbol) [0x00007FF6DDA2F8E7]
+	(No symbol) [0x00007FF6DDA2FB1C]
+	(No symbol) [0x00007FF6DDA834A7]
+	(No symbol) [0x00007FF6DDA57AEF]
+	(No symbol) [0x00007FF6DDA80169]
+	(No symbol) [0x00007FF6DDA57883]
+	(No symbol) [0x00007FF6DDA20550]
+	(No symbol) [0x00007FF6DDA21803]
+	GetHandleVerifier [0x00007FF6DDF372BD+3529853]
+	GetHandleVerifier [0x00007FF6DDF4DA22+3621858]
+	GetHandleVerifier [0x00007FF6DDF424D3+3575443]
+	GetHandleVerifier [0x00007FF6DDCAB77A+860474]
+	(No symbol) [0x00007FF6DDB5088F]
+	(No symbol) [0x00007FF6DDB4CBC4]
+	(No symbol) [0x00007FF6DDB4CD66]
+	(No symbol) [0x00007FF6DDB3C2C9]
+	BaseThreadInitThunk [0x00007FFD8ECF259D+29]
+	RtlUserThreadStart [0x00007FFD9036AF38+40]
+
+2025-03-19 17:05:54,917 - ADB Workflow - INFO - Running project search for india_transport_projects
+2025-03-19 17:05:54,918 - ADBScraper - INFO - Searching projects with filters: {'country': 'India', 'status': 'Proposed', 'sector': 'Transport'}
+2025-03-19 17:05:55,164 - ADBScraper - INFO - Navigated to projects page
+2025-03-19 17:06:05,302 - ADBScraper - ERROR - Error searching projects: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6DDBDFE45+26629]
+	(No symbol) [0x00007FF6DDB46010]
+	(No symbol) [0x00007FF6DD9D931A]
+	(No symbol) [0x00007FF6DDA2F8E7]
+	(No symbol) [0x00007FF6DDA2FB1C]
+	(No symbol) [0x00007FF6DDA834A7]
+	(No symbol) [0x00007FF6DDA57AEF]
+	(No symbol) [0x00007FF6DDA80169]
+	(No symbol) [0x00007FF6DDA57883]
+	(No symbol) [0x00007FF6DDA20550]
+	(No symbol) [0x00007FF6DDA21803]
+	GetHandleVerifier [0x00007FF6DDF372BD+3529853]
+	GetHandleVerifier [0x00007FF6DDF4DA22+3621858]
+	GetHandleVerifier [0x00007FF6DDF424D3+3575443]
+	GetHandleVerifier [0x00007FF6DDCAB77A+860474]
+	(No symbol) [0x00007FF6DDB5088F]
+	(No symbol) [0x00007FF6DDB4CBC4]
+	(No symbol) [0x00007FF6DDB4CD66]
+	(No symbol) [0x00007FF6DDB3C2C9]
+	BaseThreadInitThunk [0x00007FFD8ECF259D+29]
+	RtlUserThreadStart [0x00007FFD9036AF38+40]
+
+2025-03-19 17:06:05,321 - ADB Workflow - INFO - No new items found
+2025-03-19 17:06:07,583 - ADBScraper - INFO - Browser closed
+2025-03-19 17:06:11,656 - ADB Workflow - INFO - Entering schedule loop
+2025-03-20 08:54:21,208 - ADB Workflow - INFO - Starting ADB monitoring workflow
+2025-03-20 08:54:21,208 - ADB Workflow - INFO - Scheduled job to run daily at 09:00
+2025-03-20 08:54:21,210 - ADB Workflow - INFO - Running initial job
+2025-03-20 08:54:21,210 - ADBScraper - INFO - Initializing webdriver...
+2025-03-20 08:54:22,901 - ADBScraper - INFO - Webdriver initialized
+2025-03-20 08:54:22,901 - ADB Workflow - INFO - Running tender search for india_water_tenders
+2025-03-20 08:54:22,901 - ADBScraper - INFO - Searching tenders with filters: {'country': 'India', 'status': 'Active', 'sector': 'Water and other urban infrastructure and services'}
+2025-03-20 08:54:23,611 - ADBScraper - INFO - Navigated to tenders page
+2025-03-20 08:54:33,932 - ADBScraper - ERROR - Error searching tenders: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF672C4FE45+26629]
+	(No symbol) [0x00007FF672BB6010]
+	(No symbol) [0x00007FF672A4931A]
+	(No symbol) [0x00007FF672A9F8E7]
+	(No symbol) [0x00007FF672A9FB1C]
+	(No symbol) [0x00007FF672AF34A7]
+	(No symbol) [0x00007FF672AC7AEF]
+	(No symbol) [0x00007FF672AF0169]
+	(No symbol) [0x00007FF672AC7883]
+	(No symbol) [0x00007FF672A90550]
+	(No symbol) [0x00007FF672A91803]
+	GetHandleVerifier [0x00007FF672FA72BD+3529853]
+	GetHandleVerifier [0x00007FF672FBDA22+3621858]
+	GetHandleVerifier [0x00007FF672FB24D3+3575443]
+	GetHandleVerifier [0x00007FF672D1B77A+860474]
+	(No symbol) [0x00007FF672BC088F]
+	(No symbol) [0x00007FF672BBCBC4]
+	(No symbol) [0x00007FF672BBCD66]
+	(No symbol) [0x00007FF672BAC2C9]
+	BaseThreadInitThunk [0x00007FFD569AE8D7+23]
+	RtlUserThreadStart [0x00007FFD5819BF6C+44]
+
+2025-03-20 08:54:33,935 - ADB Workflow - INFO - Running project search for india_transport_projects
+2025-03-20 08:54:33,935 - ADBScraper - INFO - Searching projects with filters: {'country': 'India', 'status': 'Proposed', 'sector': 'Transport'}
+2025-03-20 08:54:34,203 - ADBScraper - INFO - Navigated to projects page
+2025-03-20 08:54:44,291 - ADBScraper - ERROR - Error searching projects: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF672C4FE45+26629]
+	(No symbol) [0x00007FF672BB6010]
+	(No symbol) [0x00007FF672A4931A]
+	(No symbol) [0x00007FF672A9F8E7]
+	(No symbol) [0x00007FF672A9FB1C]
+	(No symbol) [0x00007FF672AF34A7]
+	(No symbol) [0x00007FF672AC7AEF]
+	(No symbol) [0x00007FF672AF0169]
+	(No symbol) [0x00007FF672AC7883]
+	(No symbol) [0x00007FF672A90550]
+	(No symbol) [0x00007FF672A91803]
+	GetHandleVerifier [0x00007FF672FA72BD+3529853]
+	GetHandleVerifier [0x00007FF672FBDA22+3621858]
+	GetHandleVerifier [0x00007FF672FB24D3+3575443]
+	GetHandleVerifier [0x00007FF672D1B77A+860474]
+	(No symbol) [0x00007FF672BC088F]
+	(No symbol) [0x00007FF672BBCBC4]
+	(No symbol) [0x00007FF672BBCD66]
+	(No symbol) [0x00007FF672BAC2C9]
+	BaseThreadInitThunk [0x00007FFD569AE8D7+23]
+	RtlUserThreadStart [0x00007FFD5819BF6C+44]
+
+2025-03-20 08:54:44,298 - ADB Workflow - INFO - No new items found
+2025-03-20 08:54:46,496 - ADBScraper - INFO - Browser closed
+2025-03-20 08:54:46,496 - ADB Workflow - INFO - Entering schedule loop

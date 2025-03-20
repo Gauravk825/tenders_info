@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.dll
+
+# Distribution / packaging
+.eggs/
+dist/
+sdist/
+*.egg-info/
+*.whl
+build/
+htmlcov/
+
+# PyInstaller
+#  Usually these files are written into a dist/ subdirectory.
+#  But we don't rely on it.
+/dist/
+/build/
+.env
+venv/
+d:\environment\venv

@@ -1,0 +1,35 @@
+{
+  "email": {
+    "enabled": false,
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender_email": "your-email@gmail.com",
+    "sender_password": "your-app-password",
+    "recipients": [
+      "recipient@example.com"
+    ]
+  },
+  "search_filters": {
+    "tenders": [
+      {
+        "name": "india_water_tenders",
+        "country": "India",
+        "status": "Active",
+        "sector": "Water and other urban infrastructure and services"
+      }
+    ],
+    "projects": [
+      {
+        "name": "india_transport_projects",
+        "country": "India",
+        "status": "Proposed",
+        "sector": "Transport"
+      }
+    ]
+  },
+  "schedule": {
+    "frequency": "daily",
+    "time": "09:00"
+  },
+  "output_dir": "output"
+}
